@@ -1,0 +1,23 @@
+test_add_new_book_add_two_books: Проверяет добавление двух книг в books_genre.
+
+test_add_new_book_name_validation: Проверяет валидацию названия книги (не пустое, не больше 40 символов).
+
+test_set_book_genre_valid: Проверяет установку правильного жанра для книги.
+
+test_set_book_genre_invalid: Проверяет, что неверный жанр не устанавливается.
+
+test_get_books_with_specific_genre: Проверяет получение книг по конкретному жанру.
+
+test_get_books_for_children: Проверяет фильтрацию книг, подходящих для детей.
+
+test_add_book_in_favorites: Проверяет добавление книги в избранное.
+
+test_add_book_in_favorites_twice: Проверяет, что книга не дублируется в избранном.
+
+test_delete_book_from_favorites: Проверяет удаление книги из избранного.
+
+test_get_list_of_favorites_books: Проверяет получение списка избранных книг.
+
+test_get_book_genre_nonexistent: Проверяет получение жанра для несуществующей книги.
+
+test_add_duplicate_book: Проверяет, что дубликат книги не добавляется в books_genre.
